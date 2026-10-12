@@ -13,5 +13,4 @@ jobs:
       # checkout клонирует репозиторий
       - uses: actions/checkout@v7
       # run это произвольная bash-команда
-      # ls -la выведет содержимое текущего репозитория
       - run: make say-hello
